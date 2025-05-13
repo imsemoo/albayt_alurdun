@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الرئيسية - البيت الأردني</title>
+
+    <!-- Bootstrap RTL -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.rtl.min.css" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="main-navbar">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">🏠 البيت الأردني</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+                    <i class="las la-bars fs-2 text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="mainMenu">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#">الرئيسية</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">من نحن</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">مشاريعنا</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">تواصل معنا</a></li>
+                    </ul>
+                    <a href="#" class="btn btn-outline-light ms-3">تسجيل الدخول</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero + Search -->
+    <section class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-content container">
+            <h1 class="hero-title">مرحبا بك في <span>البيت الأردني</span></h1>
+            <p class="hero-subtitle mb-3">نوفر لك أفضل حلول البيع والشراء والإيجار العقاري بأعلى جودة وأفضل سعر</p>
+            <a href="#properties" class="btn-cta">تصفح العقارات الآن</a>
+
+            <div class="scroll-icon">
+                <i class="fas fa-angle-double-down"></i>
+            </div>
+
+            <!-- Enhanced Search Filter -->
+            <form class="hero-search">
+                <!-- المنطقة -->
+                <div class="filter-item input-group">
+                    <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                    <input type="text" class="form-control" placeholder="ابحث بالمنطقة (مثل عمان)" />
+                </div>
+                <!-- التصنيف -->
+                <div class="filter-item input-group">
+                    <span class="input-group-text"><i class="fas fa-tags"></i></span>
+                    <select class="form-select">
+                        <option selected>اختر التصنيف</option>
+                        <option>للبيع</option>
+                        <option>للإيجار</option>
+                    </select>
+                </div>
+                <!-- حالة العقار -->
+                <div class="filter-item input-group">
+                    <span class="input-group-text"><i class="fas fa-info-circle"></i></span>
+                    <select class="form-select">
+                        <option selected>حالة العقار</option>
+                        <option>متاح</option>
+                        <option>تم البيع</option>
+                    </select>
+                </div>
+                <!-- زر البحث -->
+                <div class="filter-item">
+                    <button type="submit">بحث</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Scripts -->
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
